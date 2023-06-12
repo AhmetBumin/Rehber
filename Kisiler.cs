@@ -7,7 +7,7 @@ namespace TelefonRehberiUygulamasi
 		private string soyIsim;
 		private string telefonNo;
 
-        public Kisiler(string isim, string soyIsim, string telefonNo)
+        	public Kisiler(string isim, string soyIsim, string telefonNo)
 		{
 			this.Isim = isim;
 			this.SoyIsim = soyIsim;
