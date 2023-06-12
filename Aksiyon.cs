@@ -39,7 +39,7 @@ namespace TelefonRehberiUygulamasi
 			{
 			yanlissecim:
 				Console.Clear();
-                try
+               		 	try
 				{
                     if (rehber[i].Isim.Equals(SilinecekKisi) || rehber[i].SoyIsim.Equals(SilinecekKisi)) // rehberdeki isim veya soyisim kontrol edilir
                     {
@@ -51,8 +51,8 @@ namespace TelefonRehberiUygulamasi
                             rehber.RemoveAt(i);
                             break;
                         }
-						else if (secim1==2)
-						{
+			else if (secim1==2)
+			{
                             Console.WriteLine("Rehberde başka kişi kontrol ediliyor");
                             System.Threading.Thread.Sleep(2000);
                             continue;
