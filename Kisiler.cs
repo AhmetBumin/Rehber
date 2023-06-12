@@ -22,7 +22,7 @@ namespace TelefonRehberiUygulamasi
 		public string SoyIsim
 		{
 			get=>soyIsim;
-            set => soyIsim = value;
+            		set => soyIsim = value;
 		}
 		public string TelefonNo
 		{
