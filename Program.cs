@@ -45,6 +45,7 @@ class Program
                         kontrol = false;
                         break;
                     default:
+                        Console.WriteLine("Geçersiz seçim yaptınız lütfen tekrar seçiniz.. ");
                         break;
                 }
             }
